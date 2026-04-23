@@ -33,29 +33,70 @@ const Index = () => {
       </div>
 
       <div className="text-center font-serif text-conf-navy space-y-5 mb-12">
-        <div>
-          <p className="text-lg mb-1">ICAIS 2025 proceedings</p>
-          <p>
-            <a className="conf-link" href="https://link.springer.com/book/10.1007/978-3-031-90478-3" target="_blank" rel="noreferrer">Volume - 1 (PUBLISHED)</a>
-            <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2">new</span>
-          </p>
-          <p>
-            <a className="conf-link" href="https://link.springer.com/book/10.1007/978-3-031-90482-0" target="_blank" rel="noreferrer">Volume - 2 (PUBLISHED)</a>
-            <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2">new</span>
-          </p>
-        </div>
-        <div>
-          <p className="text-lg mb-1">ICAIS 2026 proceedings</p>
-          <p>
-            <a className="conf-link" href="https://link.springer.com/book/9783032235435" target="_blank" rel="noreferrer">Volume - 1 (PUBLISHED)</a>
-            <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2">new</span>
-          </p>
-          <p>
-            <a className="conf-link" href="https://link.springer.com/book/9783032235466" target="_blank" rel="noreferrer">Volume - 2 (PUBLISHED)</a>
-            <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2">new</span>
-          </p>
-        </div>
-      </div>
+  <div>
+    <p className="text-lg mb-1">ICAIS 2025 proceedings</p>
+
+    <p>
+      <a
+        className="conf-link"
+        href="https://link.springer.com/book/10.1007/978-3-031-90478-3"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Volume - 1 (PUBLISHED)
+      </a>
+      <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2 blink">
+        NEW
+      </span>
+    </p>
+
+    <p>
+      <a
+        className="conf-link"
+        href="https://link.springer.com/book/10.1007/978-3-031-90482-0"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Volume - 2 (PUBLISHED)
+      </a>
+      <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2 blink">
+        NEW
+      </span>
+    </p>
+  </div>
+
+  <div>
+    <p className="text-lg mb-1">ICAIS 2026 proceedings</p>
+
+    <p>
+      <a
+        className="conf-link"
+        href="https://link.springer.com/book/9783032235435"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Volume - 1 (PUBLISHED)
+      </a>
+      <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2 blink">
+        NEW
+      </span>
+    </p>
+
+    <p>
+      <a
+        className="conf-link"
+        href="https://link.springer.com/book/9783032235466"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Volume - 2 (PUBLISHED)
+      </a>
+      <span className="bg-conf-pink text-white text-xs px-2 py-0.5 rounded-full ml-2 blink">
+        NEW
+      </span>
+    </p>
+  </div>
+</div>
 
       <div className="bg-conf-panel text-white p-8 mb-10">
         <h3 style={{ color: "white" }} className="text-center font-display text-2xl mb-6">Technical Sponsors</h3>
@@ -125,7 +166,7 @@ const Index = () => {
       <SectionTitle>Conference Info</SectionTitle>
       <Prose>
         <p>
-          Recent years have witnessed the evolution of Artificial Intelligence [AI] techniques like deep learning, machine learning, pattern recognition, Natural language processing [NLP], and computer vision and their revolutionary applications in the emerging smart city and industrial automation applications. In this scenario, AI provides smart and efficient tools for smart energy systems to perform smart electricity generation, emergency response, and delivery. The integration of renewable energy sources into the smart grid is made easier by using Artificial intelligence technologies. Meanwhile, Machine Learning the subset of Artificial intelligence provides some security and privacy assessment tools to the evolving smart energy grids. As Artificial Intelligence [AI] techniques are still remaining in the initial stage to revolutionize the way we generate, transmit and consume the energy in the smart city and industrial infrastructure. It is clearly known that the integration of AI in smart energy models will deliver a wide range of potential research opportunities to the smart energy management community. The main goal of the 7th International Conference on Artificial Intelligence and Smart Energy [ICAIS 2027] organized by Department of EEE, JCT College of Engineering and Technology, Coimbatore, Tamilnadu, India on 11Ã¢â‚¬â€œ12, January 2027 is to propose, share and exchange innovative Artificial Intelligence [AI] solutions to enhance the efficiency, stability, robustness, and security of smart energy systems.
+          Recent years have witnessed the evolution of Artificial Intelligence [AI] techniques like deep learning, machine learning, pattern recognition, Natural language processing [NLP], and computer vision and their revolutionary applications in the emerging smart city and industrial automation applications. In this scenario, AI provides smart and efficient tools for smart energy systems to perform smart electricity generation, emergency response, and delivery. The integration of renewable energy sources into the smart grid is made easier by using Artificial intelligence technologies. Meanwhile, Machine Learning the subset of Artificial intelligence provides some security and privacy assessment tools to the evolving smart energy grids. As Artificial Intelligence [AI] techniques are still remaining in the initial stage to revolutionize the way we generate, transmit and consume the energy in the smart city and industrial infrastructure. It is clearly known that the integration of AI in smart energy models will deliver a wide range of potential research opportunities to the smart energy management community. The main goal of the 7th International Conference on Artificial Intelligence and Smart Energy [ICAIS 2027] organized by Department of EEE, JCT College of Engineering and Technology, Coimbatore, Tamilnadu, India on 11–12, January 2027 is to propose, share and exchange innovative Artificial Intelligence [AI] solutions to enhance the efficiency, stability, robustness, and security of smart energy systems.
         </p>
       </Prose>
 
@@ -133,7 +174,7 @@ const Index = () => {
         <SectionTitle>College Info</SectionTitle>
         <Prose>
           <p>
-            JCT COLLEGE OF ENGINEERING AND TECHNOLOGY Ã¢â‚¬â€ Shri Jagannath Educational Health and Charitable Trust was established by renowned and philanthropic people with an objective of providing education to all especially the down trodden and rural population. Considering the growing demands for technical education in the country the trust has started an engineering college namely JCT College of Engineering and Technology in Pichanur in Coimbatore for the academic year 2009Ã¢â‚¬â€œ10. The College is located at Pichanur at the foothills of the Western Ghats in a serene, eco friendly lush green environment. It is well connected by road, rail and air. The Management strives hard to enhance the professional knowledge, skills and attitudes of educators, so that they might in turn improve the learning process of students. The college aims at developing a deep understanding of the human values and social concerns among the engineering graduates.
+            JCT COLLEGE OF ENGINEERING AND TECHNOLOGY Shri Jagannath Educational Health and Charitable Trust was established by renowned and philanthropic people with an objective of providing education to all especially the down trodden and rural population. Considering the growing demands for technical education in the country the trust has started an engineering college namely JCT College of Engineering and Technology in Pichanur in Coimbatore for the academic year 2009-10. The College is located at Pichanur at the foothills of the Western Ghats in a serene, eco friendly lush green environment. It is well connected by road, rail and air. The Management strives hard to enhance the professional knowledge, skills and attitudes of educators, so that they might in turn improve the learning process of students. The college aims at developing a deep understanding of the human values and social concerns among the engineering graduates.
           </p>
         </Prose>
       </div>
