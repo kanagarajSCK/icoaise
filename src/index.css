@@ -84,16 +84,17 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
-    font-family: 'IM Fell DW Pica', 'Cormorant Garamond', Georgia, serif;
-    font-size: 17px;
-    line-height: 1.7;
-  }
+  @apply bg-background text-foreground;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
   h1, h2, h3, h4 {
-    font-family: 'IM Fell English', 'IM Fell DW Pica', Georgia, serif;
-    color: hsl(var(--conf-navy));
-    letter-spacing: 0.02em;
-  }
+  font-family: 'Poppins', 'Inter', sans-serif;
+  color: hsl(var(--conf-navy));
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
 }
 
 @layer components {
